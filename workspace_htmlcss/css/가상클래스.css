@@ -1,0 +1,114 @@
+.container1{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+
+.container1 > div{
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  border: 1px solid black;
+  color: white;
+  font-size: 2rem;
+  
+  display: flex;
+  /* flex 글자 중앙 */
+  justify-content: center;
+  align-items: center;
+
+  /* 변환 : 전체를 1초 동안
+     애니메이션 넣기*/
+  transition: all 0.5s;
+}
+
+
+
+/* 가상클래스 : (콜론) 
+  ★ hover ★ (선택자의 마우스를 올리면 발생)*/
+.d1:hover{
+  width: 120px;
+  height: 120px;
+}
+.d2:hover{
+  background-color:black;
+  color: rgb(255, 251, 0);
+}
+.d3:hover{
+  position: relative;
+  /* 위에서 부터 ~top까지 떨어트린다 */
+  top: 10px;
+  left: 10px;
+}
+
+
+/* ----------------------------------- */
+
+
+input{
+  margin-left: 30px;
+  width: 200px;
+  /* height: 50px; */
+  padding: 10px 4px;
+  border-radius: 8px;
+  border: 1px solid lightgreen;
+  outline: none;
+  transition: all 4s;
+
+}
+/* ★ focus ★ 클릭하면~
+  input, button을 클릭하면 발생 */
+input:focus{
+  width: 300px;
+  border: 1.5px solid green;
+  
+}
+
+
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+ul{
+  margin-left: 30px;
+}
+
+
+/* before 선택자 앞에 
+  'inline'요소를 추가 */
+.li-1:before{
+  content: "new";
+  color: white;
+  background-color: blue;
+  border-radius: 6px;
+  /* padding 박스 안 크기 */
+  padding: 2px 6px;
+  /* 박스 밖 크기 */
+  margin-right: 6px;
+}
+
+
+/* after : 선택자 뒤에 'inline'
+            요소를 추가 */
+
+.li-1::after{
+  content: "css";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

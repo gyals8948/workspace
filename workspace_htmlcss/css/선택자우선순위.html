@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="선택자우선순위.css">
+
+
+</head>
+
+
+<body>
+  
+<p class="p1">
+  Lorem ipsum dolor sit amet.
+</p>
+
+<p style="color: red; background-color: black;">
+  <!-- inline style 한 줄로 css를 대체 -->
+  Lorem ipsum dolor sit amet.
+</p>
+
+
+
+<hr>
+
+
+<div class="d1" id="d1" style="color: chocolate;">
+
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, tempore?
+
+</div>
+
+
+<!-- ★선택자 우선순위★
+  (순위가 높으면 먼저 실행)
+1. !important style    (우선순위를 높게 가져가고 싶을 때 사용)
+2. inline style 
+   (html에 바로 적용하는 css기능)
+3. id 선택자 (#)
+4. class 선택자(.)
+5. 태그선택자(tag)  
+-->
+
+  
+</body>
+
+
+</html>

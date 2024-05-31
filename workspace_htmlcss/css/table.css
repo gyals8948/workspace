@@ -1,0 +1,78 @@
+
+
+/* 다른 디자인일때 thead, tbody 나눠서 보기 */
+
+
+
+table{
+  /* table에 border를 주면 바깥에만 테두리가 생김 */
+  /* border: 1px solid black; */
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+tr{
+  border-bottom: 1.5px solid black;
+}
+
+
+thead > tr{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: cadetblue;
+}
+
+tbody > tr{
+  border-bottom:  1px solid black;
+}
+
+
+td{
+  padding: 6px;
+}
+
+
+/* 각 tr들의 2번째 td */
+tbody > tr > td:nth-child(2){
+  text-align: left;
+}
+
+
+/* even짝수(2n) odd 홀수(2n+1, 2n-1)*/
+tbody > tr:nth-child(even){
+  background-color: rgb(238, 240, 236);
+}
+
+tbody > tr:hover{
+  background-color: #dddddd
+  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+원래 크기에서 1.1배 키우겠다
+scale:1.1; */

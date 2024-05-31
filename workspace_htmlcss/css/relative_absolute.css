@@ -1,0 +1,31 @@
+.img-div{
+  background-color: lightgray;
+  position: relative;
+  /* 통상적으로 좌상단이 좌표의 시작점 - > absolute 의 부모태그에 position-relative를 사용하면 '부모태그'가 좌표의 시작점이 됨 */
+}
+
+
+.img-div img{
+  border:  2px solid orange;
+  border-radius: 50px;
+  position: absolute;
+  }
+
+  .img-div img:first-child{
+  /* position: absolute; */
+  /* top: 10px; */
+  } 
+
+  .img-div img:nth-child(1){
+  z-index: 3;
+  }
+
+  .img-div img:nth-child(2){
+  left: 40px;
+  z-index: 2;
+  }
+
+  .img-div img:nth-child(3){
+  left: 80px;
+  z-index: 1;
+  }

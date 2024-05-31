@@ -1,0 +1,39 @@
+.container{
+
+  /* border: 1px solid black; */
+  width: 800px;
+  margin: auto;
+
+}
+
+
+table, tr, td{
+  border: 1px solid black
+
+}
+table{
+  border-collapse: collapse;
+  /* width 100%의 기준
+  부모 요소가 기준 */
+  
+  width: 100%;
+}
+
+.a{
+  margin-bottom: ;
+}
+
+.r{
+  text-align: end;
+}
+
+/* 1.div 구획나누기
+  2. 큰틀부터보기
+  3. style 활용
+
+
+인라인, 블럭 div, 정렬; */
+
+
+
+

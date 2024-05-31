@@ -1,0 +1,34 @@
+body{
+  /* body에 기본적인 margin이 존재함 */
+
+  margin: 0px;
+
+}
+
+
+div{
+
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  
+}
+
+
+.d1{
+  background-color: hotpink;
+}
+
+.d2{
+  background-color: gray;
+  position: absolute;
+  /* 우선 */
+  top: 50px;
+  left: 50px;
+}
+
+.d3{
+  background-color: rgb(24, 1, 231);
+}

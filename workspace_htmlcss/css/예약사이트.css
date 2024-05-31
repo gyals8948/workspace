@@ -1,0 +1,47 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(161, 223, 223);
+  display: flex;
+  justify-content: center;
+}
+
+.div1{
+  width: 360px;
+  border-radius: 5%;
+  height: 600px;
+  margin: auto;
+  
+}
+
+
+img{
+  width: 360px;
+  border-radius: 5% 5% 0% 0%;
+  box-sizing: border-box;
+  /* background-size: cover; */
+}
+
+.div1 > div:nth-child(2){
+  border-top: none;
+  background-color: white;
+  width: 360px;
+  height: 20%;
+  text-align: center;
+
+}
+.div1 > div:nth-child(3){
+  background-color: rgb(179, 19, 19);
+  width: 360px;
+  height: 12%;
+  text-align: center;
+  
+  
+  
+}
+.div1 > div:nth-child(4){
+  background-color: rgb(10, 231, 165);
+  width: 360px;
+  height: 20%;
+  text-align: center;
+}

@@ -1,0 +1,88 @@
+
+/* ★ 많이 쓰는 크기 단위 ★ 
+px : 기본(default)은 16px
+%  : 100% -> 16px
+em
+rem: 1rem -> 16px
+     2rem -> 32px
+     0.5rem -> 8px
+*/
+
+/* ※색상
+1. 정해진 문자 사용(red,blue, yellow)
+ex) color : red;
+
+2.R,G,B(a)
+  color : #FF0000(16진수,0~F까지)
+
+  color : rgb(255,255,0 0~255까지)
+
+  color : rgba(0, 0, 255, 0~1) 
+  a -> alpha -> 투명도
+*/
+
+
+
+
+
+/* 기본 폰트 사이즈 : 16px */
+
+
+.p1{
+
+  font-size: 20px;
+  /* normal : 400,
+   bold : 700 */
+  font-weight: bold;
+
+  /* 기울임체 */
+  font-style: italic;
+
+  /* 줄 간격(위쪽) */
+  line-height: 50px;
+
+  /* 글자 정렬 
+  text-align*/
+  /* 양쪽정렬
+  justify */
+  /* 중앙 정렬
+  center */
+  text-align: center; 
+
+  
+  }
+
+.p2{
+  /* 글자색 */
+  color: rgba(0, 68, 255, 0.76);
+
+  /* 글자꾸밈(취소선) */
+  text-decoration: line-through;
+
+  /* 자간(글자간격) */
+  letter-spacing: 5px;
+}
+
+
+
+a{
+  /* 밑줄없애기 
+  text-decoration: none;*/
+  text-decoration: none;
+  color: black;
+
+}
+
+
+
+#c_1{
+  color: #999999;
+}
+
+#c_2{
+  color: rgb(255, 0,0)
+}
+
+#c_3{
+  color: rgba(0, 0, 255, 0.3);
+}

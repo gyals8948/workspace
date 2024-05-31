@@ -1,0 +1,28 @@
+
+
+
+
+.container{
+  width: 700px;
+  border:  solid black;
+  margin: auto;
+  padding: 10px;
+  overflow: hidden;
+
+  /* div는 block태그 
+  block태그는 margin : auto 하면 중앙으로 이동 */
+}
+
+p{
+  /* font-size: 24px; */
+  /* line-height: 50px; */
+  margin-top: 10px;
+  text-align: justify;
+}
+
+img{
+  float: right;
+  /* float는 공중에 떠있는 판정이 있어서 박스 크기에 구애받지 않음 */
+
+  /* overflow: hidden; 을 사용하면 float의 공중 판정이 사라짐 */
+}

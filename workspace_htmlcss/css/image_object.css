@@ -1,0 +1,31 @@
+div{
+  border: 3px solid red;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+}
+
+
+.d1{
+  background-image: url(house.jpg);
+  /* 공간안에 이미지가 잘려서 안으로 들어감 */
+
+}
+
+/* img 태그는 이미지가 넘쳐서 나옴 */
+/* .d2{overflow: hidden;
+}  = background image url */
+  
+/* objext-fit: cover 이미지의 비율을 유지함
+   object-position 그림이 잘려 있을 때
+   보여지는 부분을 설정.
+   object-position: (x축, y축);
+               ex) (left, top);
+*/
+
+.d2 img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+

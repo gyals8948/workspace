@@ -1,0 +1,24 @@
+.container{
+  border: 5px solid red;
+  width: 500px;
+  margin: 20px;
+}
+
+.inner{
+  font-size: 2rem;
+  border: 5px solid black;
+  width: 500px;
+  padding: 0px 10px;
+}
+
+.inner1{
+  box-sizing: content-box;
+}
+/* 박스 너비 크기 width + padding + border */
+
+.inner2{
+  box-sizing: border-box;
+}
+  /* 아무리 크기가 커도 border값 안에 맞게 들어감*/
+
+

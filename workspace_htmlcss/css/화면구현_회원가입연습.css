@@ -1,0 +1,21 @@
+
+.red-font{
+  color: red;
+}
+.container{
+  border: 1px solid black;
+  width: 1200px;
+  margin: auto;
+}
+table,tr,td{
+  border: 1px solid black;
+ }
+ table{
+  border-collapse: collapse;
+  /* 부모요소 기준 */
+  width: 100%; 
+}
+
+.aaa{
+  text-align: right;
+}

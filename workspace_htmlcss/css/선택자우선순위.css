@@ -1,0 +1,27 @@
+/* 1.태그 선택자
+2. 아이디 선택자
+3. 클래스 선택자
+*/
+
+
+.p1{
+  color: red;
+  background-color: black;
+}
+
+
+
+div{
+  color: aqua !important;
+  background-color: blue;
+}
+
+.d1{
+  color: blue;
+}
+
+
+
+#d1{
+color: red;
+}

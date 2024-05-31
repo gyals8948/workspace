@@ -1,0 +1,65 @@
+
+.container{
+  width: 100vw;
+  background-color: #213555;
+padding: 16px;
+text-align: center;
+  
+  /* border: 3px solid red;  */
+
+
+  /* box-sizing: border-box; */
+  /* box-sizing: content-box;
+  는 default 값 */
+}
+
+.main{
+  background-color: rgb(136, 27, 81);
+  padding: 10px;
+  overflow: hidden;
+}
+
+
+.header{
+  /* border: 3px solid blue; */
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+  background-color: #4F709C;
+  /* box-sizing: border-box; */
+}
+
+.main > div{
+  height: 200px;
+}
+
+.main > div:nth-child(1){
+  width: 20%;
+  background-color: antiquewhite;
+  float: left;
+}
+
+
+.main > div:nth-child(2){
+  width: 100%;
+  background-color: chartreuse;
+  
+}
+
+.footer{background-color: blueviolet;
+
+
+}
+
+
+/*
+      ★특수기호 발음★
+
+    * 에스테리스크(모든, 전부)
+    @ 엣
+    ^ 캐럿
+    & 엠퍼센트
+    | 버티컬바 
+ 
+ 
+ */

@@ -1,0 +1,20 @@
+.img1{
+  visibility: visible;
+  /* visibility: hidden; 숨기기 
+  -> 숨겨지지만 공간은 남아있음*/
+}
+
+.img2{
+  
+  /* display: none;
+   hidden 처럼 사라지지만 ★공간까지 사라짐★ */
+}
+
+.img3{
+  
+  opacity: 0.5;
+  /* 0~1까지 넣을 수 있음
+  원래 있는 것을 투명하게 만듦
+  (투명도 조절) */
+  
+}

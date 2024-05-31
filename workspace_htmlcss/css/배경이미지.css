@@ -1,0 +1,29 @@
+
+
+.content{
+
+  background-image: url('배경.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* auto 원본 이미지 대로 
+  불러오기 */
+  /* contain(), 
+  
+  cover(영역에 여백없이 꽉채움.
+  이미지의 비율은 유지, 사진이 짤릴수 도 있음) */
+  /* width: 600px; */
+  width: 100vw;  
+  height : 90vh;
+  /* height: 600px; */
+  border: 1px solid black;
+
+}
+/* 실제너비 = width + padding + border 너비 */
+
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+
+

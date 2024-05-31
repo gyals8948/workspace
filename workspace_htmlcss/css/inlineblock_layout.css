@@ -1,0 +1,31 @@
+.container1{
+
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  margin: 30px;
+  font-size: 0px;
+
+}
+
+
+.container1 > div{
+
+  width: 150px;
+  height: 150px;
+  background-color: cadetblue;
+  border: 1px solid black;
+  color: blanchedalmond;
+  /* 글자색 */
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 150px; 
+  font-weight: bold;
+  
+  /* 글자 두께 */
+   /* float: left; */
+   
+  /* float 를 주면 부모 태그의 높이가 사라지지만 강제로 높이를 설정시 사라지지않는다 */
+  display: inline-block;
+
+}

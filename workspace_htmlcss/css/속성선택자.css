@@ -1,0 +1,17 @@
+body{
+  padding: 20px;
+}
+
+input{
+  margin: 16px;
+}
+
+/* 속성 선택자 */
+/* 필요한 속성만 선택하는 것 */
+input[type="text"]{
+  width: 300px;
+}
+
+input[class="aaa"]{
+  border: 3px solid green;
+}

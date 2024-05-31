@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+}
+
+
+.rr{
+  background-color: cornsilk;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+
+ul > li{
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  font-size: 13px;
+  
+}
+
+.a{
+  font-size: 30px;
+  color:white;
+  text-align: right;
+  padding: 12px 10px 0px 180px;
+   
+     
+  }
+
+
+.c{
+  display: inline;
+  width: 500px;
+  height: 30px;
+  margin-bottom: 14px;
+  padding-top: 7px;
+  
+ 
+}
+
+
+table{
+  width: 100vw;
+  margin: 0px auto;
+  background-color:rgb(22, 21, 18) ;
+  text-align: center;
+  
+}
+
+.bbb{
+  color:rgb(255, 255, 255);
+  font-size: small;
+}
+
+.aaa{
+  text-align: center;
+  
+}
+
+ul{
+  margin-left: 500px;
+}
+
+
+
+
+
+.oo{
+  background-image: url(화면구현_메인배경.PNG);
+  width: 100vw;  
+  height : 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul > li{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  width: 80px;
+}
+
+
+span{
+  font-weight: bold;
+}
+

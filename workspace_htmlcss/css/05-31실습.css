@@ -1,0 +1,33 @@
+body{
+
+  background-color: rgb(88, 29, 29);
+  width: 100vw;
+  
+}
+
+
+.container{
+  margin: 20px auto;
+
+  background-color: white;
+}
+
+.header{
+  
+  text-align: center;
+  
+}
+
+.main > div{
+
+  /* border: 3px solid black; */
+  display: inline-grid;
+  /* grid-template-columns: repeat(4)100px; */
+  /* grid-template-rows: repeat()100px; */
+
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}

@@ -1,0 +1,42 @@
+.box{
+
+  width: 300px;
+  height: 150px;
+  border: 1px solid black;
+  font-size: 20px;
+  margin: 50px;
+  
+}
+
+
+.box1{
+
+  /* overflow - 박스 내부에 내용이 넘치면 사용하는 태그 */
+  
+  overflow: visible;
+  /* overflow: visible; 
+  기본값이 visible */
+
+
+}
+
+.box2{
+
+  overflow: hidden;
+  /* 박스 크기 만큼만 내용이 나오고 나머지는 잘림 */
+
+}
+
+.box3{
+  
+  overflow: scroll;
+  /* 박스에 scroll이 생김 */
+
+}
+
+.box4{
+  
+  overflow: auto;
+  /* scroll은 가로 scroll이 존재하지만 auto는 가로 scroll이 없음 */
+
+}
