@@ -12,7 +12,7 @@ public class If_2 {
         //그렇지 않으면 '2'를 출력
         if(x == 7){
             System.out.println(1);
-        // x=7 은 틀림 = 는 대입
+        // x=7 은 틀림; = 는 대입, == 가 같다는 표시
         }
         //그렇지 않으면
         else{

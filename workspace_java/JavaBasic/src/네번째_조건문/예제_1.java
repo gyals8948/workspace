@@ -18,14 +18,9 @@ public class 예제_1 {
         int num = sc.nextInt();
         //키보드로 정수를 입력받음, num에 sc.nextInt();가 대입(int정수)
 
-
         if(num > 10){
             System.out.println("10보다 큽니다.");
         }
-
-
-
-
 
         }
 

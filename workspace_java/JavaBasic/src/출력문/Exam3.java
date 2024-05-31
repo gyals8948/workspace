@@ -4,7 +4,7 @@ package 출력문;
 public class Exam3 {
     public static void main(String[] args){
 
-        //★문자열은 "반드시" 쌍따옴표에 감사서 작성★
+        //★문자열은 "반드시" 쌍따옴표에 감싸서 작성★
         System.out.println("안녕하세요");
         System.out.println("안녕하세요");
         //★숫자는 쌍따옴표(")에 깜싸지 않는다★

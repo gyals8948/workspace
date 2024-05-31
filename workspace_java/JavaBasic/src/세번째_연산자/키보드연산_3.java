@@ -1,6 +1,6 @@
 package 세번째_연산자;
 
-import java.lang.management.OperatingSystemMXBean;
+import java.lang.management.OperatingSystemMXBean;//
 import java.util.Scanner;
 
 public class 키보드연산_3 {
