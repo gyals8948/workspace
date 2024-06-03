@@ -1,0 +1,173 @@
+
+
+.container{
+  width: 1200px;
+  margin: auto;
+  /* border: 1px solid rgb(0, 0, 0); */
+
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 51, 153);
+  color: white;
+  height: 100px;
+}
+
+.header > h1{
+  margin-left: 40px;
+}
+
+.header > ul{
+  display: flex;
+  background-color: rgb(19, 19, 122);
+  width: 650px;
+  padding: 15px 0px;
+  justify-content: space-around;
+  /* 적당한 간격으로 띄워줌 */
+}
+
+.header > ul > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+img{
+  display: block;
+  /* img태그는 inline 태그라 
+  아래쪽에 여백이 생김 - > block태그로 변환 */
+
+}
+
+.banner{
+position: relative;
+
+
+}
+
+.banner > img{
+
+  width: 100%;
+  /* 이미지가 커서 튀어나옴 -> wid 최대로 부모태그 크기에 맞춰줌 */
+
+}
+
+.banner > div{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px 30px;
+
+  transform: translate(-50%, -50%);
+  /* 움직이게 하는 공식 */
+}
+
+.banner h2{
+  margin-bottom: 12px;
+}
+
+
+.content{
+  display: flex;
+  height: 200px;
+}
+
+
+.content img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.content > div {
+  width: 400px;
+}
+
+.board{
+  background-color: rgb(207, 228, 233);
+  padding: 16px;
+}
+
+.board a{
+  color: black;
+  text-decoration: none;
+  /* a태그 밑줄 지우기 */
+}
+
+.board > h2{
+  margin-bottom: 10px;
+}
+
+.board li{
+  margin-bottom: 5px;
+  display: flex;
+}
+
+
+.banner-div > div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  width: 80%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+
+/* flex없이 중앙보내는 공식 
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  transform: translate(-50%,-50%);
+*/
+
+.banner span{
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 12px;
+}
+
+.banner-div h2{
+  margin-bottom: 20px;
+}
+
+.footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #e7e7e7;
+}
+
+.footer > h2{
+  width: 20%;
+  color: gray;
+  margin-left: 30px;
+}
+
+.footer > div{
+  width: 80%;
+  
+}
+
+.footer  ul{
+  display: flex;
+  width: 650%;
+  margin: auto;
+  justify-content: space-around;
+  margin-bottom: 10px;
+
+}
+
+.footer a{
+  color: black;
+  text-decoration: none;
+}

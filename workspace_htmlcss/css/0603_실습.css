@@ -1,0 +1,57 @@
+
+.container{
+ width: 1200px; 
+ border: 1px solid ;
+ margin: auto;
+ /* display: flex; */
+}
+
+.header{
+  background-color: rgb(15, 84, 212);
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header > h2{
+  color: white;
+}
+
+h2{
+  margin-right: 500px;
+}
+
+
+
+
+.footer{
+
+  height: 100px;
+  background-color: rgb(238, 238, 227);
+}
+
+
+.tr2{
+  color: white;
+  background-color: aqua;
+}
+
+
+.a{
+  height:  200px;
+  width: 33%;
+ display: flex;
+}
+
+
+
+.table2 {
+background-color: aliceblue;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
