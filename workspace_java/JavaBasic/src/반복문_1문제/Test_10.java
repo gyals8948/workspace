@@ -1,28 +1,17 @@
 package 반복문_1문제;
 
-public class Test_9 {
-
+public class Test_10 {
     public static void main(String[] args) {
 
-
-        int i = 1;
         int sum = 0;
 
-        while (i < 11){
-            sum = sum + i; // 같은 말 sum += i;
+        for (int i = 1; i < 11; i++){
 
-            i++;
-
+            sum = sum + i;
 
 
         }
         System.out.println(sum);
-
-
-
-
-
-
 
     }
 }

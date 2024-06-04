@@ -6,16 +6,27 @@ public class Test_7 {
 
 
 
-        int i = 10;
-
-        while (i >= 0 ){
-
-            System.out.println(i);
-
-            --i;
 
 
-        }
+
+
+
+
+
+
+        //내가 한 거
+
+
+//        int i = 10;
+//
+//        while (i >= 0 ){
+//
+//            System.out.println(i);
+//
+//            --i;
+//
+//
+//        }
 
     }
 }
