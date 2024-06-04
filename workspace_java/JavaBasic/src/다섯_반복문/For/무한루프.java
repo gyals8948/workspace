@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 /*
-* while(true){// while : 만족할 때 까지 반복
+* while(true){ // while : 만족할 때 까지 반복
 *
 * }
 * */
