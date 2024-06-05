@@ -1,6 +1,6 @@
 package 배열_1예제;
 
-public class 배열_3 {
+public class 배열예제_3 {
 
     public static void main(String[] args) {
 
