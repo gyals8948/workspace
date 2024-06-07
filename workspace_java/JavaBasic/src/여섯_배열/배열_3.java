@@ -12,7 +12,7 @@ public class 배열_3 {
 
         //배열에 저장된 값을 출력할 때는 배열의 요소로 접근한다.
         System.out.println(arr1[0]);
-//        System.out.println(arr1[5]);   ->오류 5는 6번째 == 존재하지 않음
+//        System.out.println(arr1[5]);   ->오류->  5는 6번째 == 존재하지 않음
 
         //arr1의 0~4번째 요소까지의 모든 값을 출력 ->5개
         for (int i = 0; i < 5; i++ ){ // i < (5) 배열의 공간의 개수(공간의 크기) -> 그래서 (arr2.length)를 사용함

@@ -8,7 +8,7 @@ public class 배열_1 {
     public static void main(String[] args) {
 
         //int a; // 변수의 선언
-        //a=10; // 변수의 초기화 (최초에 변수에 값을 넣는것 -> 변수의 초기화)
+        //a = 10; // 변수의 초기화 (최초에 변수에 값을 넣는것 -> 변수의 초기화)
 
 
         //배열(array)

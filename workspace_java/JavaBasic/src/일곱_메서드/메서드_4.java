@@ -8,7 +8,7 @@ public class 메서드_4 {
         int b= 40;           //== int age = b;
         String c = "서울";
         // 중요한 것은 자료형
-        introduce(a,b,c);
+        introduce(a,b,c); // 전부 출력하는 자료형
     }
 
     public static void introduce(String name, int age, String addr){
