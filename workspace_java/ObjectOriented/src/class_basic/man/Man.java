@@ -17,7 +17,7 @@ public class Man {
 
     //getter : 멤버변수 각각의 값을 return 받는 메서드
     //getter의 이름은 get변수명으로 반드시 지정해야함
-    //get 얻다 - >return 돌려주다
+    //get 얻다 - > return 값을 돌려주다
 
 
     //setter : 멤버변수 '각각의 값을 변경'하는 메서드를 세터(setter) 라고 함
