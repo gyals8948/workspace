@@ -10,8 +10,9 @@ public interface MyArrayUtil {
     double getTwoArrayAvg(int[] arr1, int[] arr2);
 
 
-    //매개변수호 받은 배열의 모든 요소가 짝수일때만 리턴 true
-    boolean inEvenArray(int[] array);
+    //매개변수로 받은 배열의 모든 요소가 짝수일때만 리턴 true
+    boolean isEvenArray(int[] array);
+
 
 
 }

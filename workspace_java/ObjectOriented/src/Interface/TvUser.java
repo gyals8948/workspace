@@ -13,9 +13,10 @@ public class TvUser {
         tv.turnOff();
 
 
-        //이런 방식으로 가능  // 아래의 2개가 선호되는 형태
+        //객체생성 - 이런 방식으로 가능  // ※ 아래의 2개가 선호되는 형태
 //        SamsungTv tv1 = new SamsungTv();
 //        LgTv tv2 = new LgTv();
+
 //        Tv tv3 = new SamsungTv();
 //        Tv tv4 = new LgTv();
 //

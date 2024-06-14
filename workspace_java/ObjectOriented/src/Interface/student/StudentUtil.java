@@ -19,11 +19,21 @@ public interface StudentUtil {
     //70 <= 평균점수 <= 79 : "A" 등급
     //70 > 평균점수 : "D" 등급
 
+    void getGradeByStudentName(Student student, String name);
+                                //여러 매개변수   = [] 배열
+
+
+
+
+
 
 
     //-- 두번째 메서드 --
     //메서드명 : getTotalScoresToArray
     //매개변수로 받은 다수의 학생들의 총점을 배열로 리턴
+
+    int[] getTotalScoresToArray(Student[] students);
+
 
 
     //-- 세번째 메서드 --
@@ -31,6 +41,9 @@ public interface StudentUtil {
     //매개변수로 두 명의 학생이 전달된다.
     //전달된 두 학생 중 총점이 높은 학생 개체를 리턴.
     //단, 전달된 두 학생의 총점이 같은 경우는 없다고 가정한다
+
+
+    Student getHighScoreStudent(Student stu1, Student stu2);
 
 
 }

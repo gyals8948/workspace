@@ -13,7 +13,8 @@ public class Student {
         this.mathScore = mathScore;
         this.engScore = engScore;
     }
-
+    //setter 멤버변수의 값을 각각 변경
+    //getter 각각 변수의 값을 알고싶을 떄 (리턴)
     public String getName() {
         return name;
     }
