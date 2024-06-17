@@ -1,5 +1,7 @@
 package collection.list;
 
+import class_basic.stu_manage.Stu;
+import com.sun.source.tree.NewArrayTree;
 import object.Person;
 
 import java.util.ArrayList;
@@ -23,6 +25,8 @@ public class TestStudent {
         Student s2 = new Student("lee",20,55);
         Student s3 = new Student("park",70,90);
 
+
+
         int sum = 0;
 
 
@@ -30,8 +34,7 @@ public class TestStudent {
         studentList.add(s2);
         studentList.add(s3);
 
-
-
+        //1) 리스트에 저장된 모든 정보를 출력해보세요.
         for (Student student : studentList){
 
             System.out.println(student.toString());
@@ -40,18 +43,54 @@ public class TestStudent {
 
         //2) 총점이 150점 이상인 학생의 모든 정보를 출력하세요.
 
+
+
+
+        //2) 총점이 150점 이상인 학생의 모든 정보를 출력하세요.
+
         for (int i = 0; i < studentList.size() ; i++){
 
             sum =  sum + studentList.get(i).getScore();
 
-            if (studentList.get(i).getScore() > 150){
+            if (studentList.get(i).getScore() >= 150){
 
-                System.out.println();
+                System.out.println(studentList.get(i).toString());
             }
 
 
         }
 
+        System.out.println();
+        System.out.println();
+
+
+        //3) 모든 학생에 대한 총점에 대한 평균 점수를 출력하세요.
+        int s = 0;
+
+        for (Student stu : studentList){
+            s = s + stu.getScore();
+
+        }
+        System.out.println(s / studentList.size());
+
+
+        System.out.println();
+        System.out.println();
+
+        //4) 총점이 1등인 학생의 모든 정보를 출력해보세요.
+
+        int index = 0; // 총점이 1등인 학생의 index
+        int max = 0; // 가장 높은 총점
+
+        for (int i = 0 ; i < studentList.size(); i ++){
+
+            if(max < studentList.get(i).getScore()){
+                max = studentList.get(i).getScore();
+                index = i;
+            }
+
+        }
+        System.out.println(studentList.get(index));
 
 
 
